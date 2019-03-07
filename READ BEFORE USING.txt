@@ -1,0 +1,1 @@
+Before running program remember to install fonts placed in fonts folder!
