@@ -28,6 +28,7 @@ class Window(QDialog):
         except:
             self.ui.lineEdit.setText("Wybrana lokalizacja nie istnieje!")
         ydl_opts = {
+            'format': 'bestvideo',
             'progress_hooks': [self.my_hook]
         }
         try:
